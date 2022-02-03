@@ -1,0 +1,39 @@
+#this is a comment
+#Comments are for humans
+#Python ignores comments
+#Humans use comments to describe source codes
+
+#Variables taught via Baksetball
+
+team1name = "Rakuzan High"
+team2name = "Tōō Academy"
+
+#A variable is a named/identifier location
+#In a computers memory
+#That stores a value
+#The value can change 
+
+
+team1score = 0
+team2score = 0
+
+team1player1fouls = 0
+team1player2fouls = 0
+team1player3fouls = 0
+team1player4fouls = 0
+team1player5ofuls = 0
+
+team2player1fouls = 0
+team2player2fouls = 0
+team2player3fouls = 0
+team2player4fouls = 0
+team2player5fouls = 0
+
+#CONSTANTS
+#Constants are like variables but different
+#Devlopers code them in FULL CAPS
+#The value in a constant does NOT change
+
+FREETHROW = 1
+NORMALBASKET = 2
+THREEPOINTBASKET = 3
