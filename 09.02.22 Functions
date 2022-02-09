@@ -1,0 +1,21 @@
+#The print function
+#Displays string or data to the screen
+#example
+
+print("This is the print function")
+print("Anime is the best")
+print("Battle Games in 5 seconds")
+print("My birthday is on the 16 June")
+print("Dont you love when i come arounddd")
+
+name = str(input("enter name: "))
+print(name)
+
+age = int(input("Age:"))
+print(age)
+
+price = float(input("Price:"))
+print(price)
+
+print("Hello",name,"how are you?")
+print("Hello",name,"how are you?","what is your age?",age)
