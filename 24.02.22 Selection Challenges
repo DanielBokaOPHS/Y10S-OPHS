@@ -27,3 +27,7 @@ else:
     print("i dont like",colour,colour,"is for bums")
 
 Challenge 5
+
+weather = str(input("Is it raining? >> ")).lower()
+if weather== "yes":
+ weather = str(input("is too windy for an umbrella? >>>  "))
