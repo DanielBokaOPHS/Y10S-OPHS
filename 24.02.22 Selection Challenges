@@ -17,3 +17,13 @@ if number > 10 and number < 20:
 
 else:
   print("thank you")
+
+Challenge 4
+
+colour = str(input("What is your Favourite colour >>>> "))
+if colour== "red" or colour== "RED" or colour== "Red":
+    print("i like red too")
+else:
+    print("i dont like",colour,colour,"is for bums")
+
+Challenge 5
