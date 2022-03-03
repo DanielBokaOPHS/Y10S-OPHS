@@ -1,0 +1,14 @@
+Example 1                                                                                       1
+
+answer="N"
+while answer != "Y":
+    print("Are we there yet?")
+    answer = input("Please respond Y or N")
+print("YAY! We are there!")
+
+
+Example 2
+
+username = ""
+while not username:
+    username = input("Please enter username")
