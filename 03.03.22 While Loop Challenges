@@ -1,0 +1,20 @@
+Challenge 1
+
+total = 0
+while total <= 50:
+    number = int(input("Enter a number"))
+    total = total + number
+    print("The total is",total)
+    
+    Challenge 2
+    number = 0
+while number <= 5:
+  number = int(input("enter a number >>> "))
+  print("the last number you entered was a",number)
+
+
+Challenge 3
+
+number1 = 1
+character = "y"
+number2 = int(input("Enter a number >>> "))
