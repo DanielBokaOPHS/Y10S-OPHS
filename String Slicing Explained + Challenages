@@ -1,0 +1,29 @@
+Explained:
+
+name = "b dfuivc duibvsfjvhyukdcvhjoc sv duk sr"
+print("len",(name))
+name2 = "bj rsjkvuiojkxbh j,xvfzdj,uiorbhjvn db "
+concat = name + name2
+print(concat)
+
+Challenge 1
+
+name = str(input("Enter your name >>>"))
+print(len(name))
+
+Challenge 2 
+
+firstname = str(input("Enter your first NAME >>>"))
+lastname = str(input("Enter your LAST name"))
+space = " "
+concat = firstname + space + lastname
+print(len(concat))
+print(concat)
+
+Challenge 3
+
+name1 = str(input("Enter your FIRST name >>>")).lower()
+name2 = str(input("Enter your LAST name >>> ")).lower()
+space = " "
+concat = name1 + space + name2
+print(concat)
