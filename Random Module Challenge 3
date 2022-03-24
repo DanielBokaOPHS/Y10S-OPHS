@@ -1,0 +1,10 @@
+import random
+colour = ["Heads", "Tails"]
+guess = random.choice(colour)
+guess = str(input("Heads or Tails")).upper()
+
+if guess == guess:
+    print("you win")
+else:
+    print("bad luck")
+    print("it was" + guess)    
