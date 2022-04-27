@@ -1,1 +1,7 @@
+    cars = []
+bob = True
+while bob == True:
+      b =  i1nt(input("input a car brand or press x to exit"))
+  
+    if b 
     
