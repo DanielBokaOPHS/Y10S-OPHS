@@ -1,0 +1,14 @@
+food = []
+food1 = str(input("Enter your FAV FOOD"))
+food2 = str(input("Enter your FAV FOOD"))
+food3 = str(input("Enter your FAV FOOD"))
+food4 = str(input("Enter your FAV FOOD"))
+
+food.append(food1)
+food.append(food2)
+food.append(food3)
+food.append(food4)
+
+removefood = str(input("type a food from the list to remove it >>>"))
+food.remove(removefood)
+print(food)
