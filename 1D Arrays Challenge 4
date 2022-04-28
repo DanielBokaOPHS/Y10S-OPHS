@@ -1,1 +1,9 @@
+TV = ["The Amazing World of Gumball","Regualar Show","BLACK CLOVER","Ben 10"]
+for kk in TV:
+    print(kk)
+show = str(input("Enter another TV show >>> "))
+movement = int(input("Enter the position at which you want to put it in 1-5 >>> "))
+movement = movement - 1
+TV.insert(movement,show)
+print(TV)
 
