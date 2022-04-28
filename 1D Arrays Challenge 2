@@ -1,7 +1,13 @@
-    cars = []
+cars = []
 bob = True
 while bob == True:
-      b =  i1nt(input("input a car brand or press x to exit"))
-  
-    if b 
+    b = str(input("Input a car brand or press x to exit >>> ")).lower()
+    if b == "x":
+        print("Exiting LOOOOOP...")
+        print("The cars in the list are HERE >>> ",cars)
+        bob = False
+    else:
+        cars.append(b)
+print(cars)
+
     
