@@ -1,0 +1,20 @@
+names = []
+name1 = str(input("Enter the name of someone you would like to invite you want to invite"))
+name2 = str(input("Enter the name of someone you would like to invite you want to invite"))
+name3 = str(input("Enter the name of someone you would like to invite you want to invite"))
+
+names.append(name1)
+names.append(name2)
+names.append(name3)
+
+sui = True
+while sui == True:
+     why = str(input("Do you want to enter more names? (Y/N) >>> ")).lower()
+     if why == "y":
+         stri = str(input("Enter the name of the next person you want to invite to the party >>> "))
+         names.append(names)
+     if why == "n":
+         dk = len(names)
+         print("You have invited ",dk,"people.")
+         print("Exiting LOOOOOP ...")
+         sui = False
