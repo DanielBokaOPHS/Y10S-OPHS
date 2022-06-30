@@ -1,0 +1,4 @@
+file = open("number.txt","w")
+number = input("write something >>>")
+file.write(number)
+file.close()
