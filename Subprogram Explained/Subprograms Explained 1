@@ -1,0 +1,15 @@
+#subprograms
+#this subprogram is an example
+#of a "procedure"
+#A procedure does NOT have a return statement/value
+
+def kebab(): #the brackets are callled paremeters
+    print("Kebabs are TASTY!!!")
+    print("Kebabs are TASTY!!!")
+    print("Kebabs are CHILLLI!!!")
+    print("Kebabs are BEFFY!!!")
+    print("Kebabs are AWESOME!!!")
+    
+    
+kebab() #this is a call
+kebab() #this is a call
