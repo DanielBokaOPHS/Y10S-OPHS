@@ -1,1 +1,6 @@
-
+def menu():
+    print("press 1 for Domination")
+    print("press 2 for Team Deathmatch")
+    print("Press 3 for Headquarters")
+    option=int(input("Choose an option for 1, 2 or 3"))
+menu()
