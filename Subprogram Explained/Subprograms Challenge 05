@@ -1,0 +1,40 @@
+def thinkbig():
+    print("you have chosen thinkbig")
+
+def thinkbigger():
+    print("you have chosen thinkbigger ")
+    
+def Winning():
+    print("you have chosen winning")
+
+def Winner():
+    print("you have chosen to winner")
+
+
+def Exit():
+    print("you have chosen to Exit")
+
+def menu():
+    print("press 1 for think big")
+    print("press 2 for think bigger")
+    print("Press 3 for Winning")
+    print("Press 4 for winner")
+    print("press 5 for Exit")
+    
+    option = int(input("Choose an option for 1, 2 ,3, 4 or 5"))
+    if option == 1:
+        print("thinkbig selected")
+    elif option == 2:
+        print("thinkbigger selected")
+    elif option == 3:
+        print("winning selected")
+    elif option == 4:
+        print("winner selected")
+    elif option == 5:
+        print("Exit")
+
+        
+    
+    
+    
+menu()
