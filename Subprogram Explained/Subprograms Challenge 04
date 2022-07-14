@@ -1,0 +1,41 @@
+def Creative():
+    print("you have chosen Creative")
+
+def Survival():
+    print("you have chosen Survival ")
+    
+def Hardcore():
+    print("you have chosen Hardcore")
+
+def Adventure():
+    print("you have chosen to Adventure")
+
+
+def Exit():
+    print("you have chosen to Exit")
+
+def menu():
+    print("press 1 for Creative")
+    print("press 2 for Survival")
+    print("Press 3 for Hardcore")
+    print("Press 4 for Adventure")
+    print("press 5 for Exit")
+    
+    option = int(input("Choose an option for 1, 2 ,3, 4 or 5"))
+    if option == 1:
+        print("Creative selected")
+    elif option == 2:
+        print("Survival selected")
+    elif option == 3:
+        print("Hardcore selected")
+    elif option == 4:
+        print("Adventure selected")
+    elif option == 5:
+        print("Exiting.......")
+    elif option == 6:
+        print("invaild choide")
+        
+    
+    
+    
+menu()
