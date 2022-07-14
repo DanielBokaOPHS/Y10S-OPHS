@@ -1,0 +1,10 @@
+name = str(input("Enter your smexy name >>> "))
+
+def HappyBirthday():
+    print("Happy Birthday to u")
+    print("Happy Birthday to u")
+    print("Happy Birthday to", name)
+    print("Happy Birthday to u")
+
+
+HappyBirthday()
