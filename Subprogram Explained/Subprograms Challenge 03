@@ -1,0 +1,34 @@
+
+
+def onePlayer():
+    print("you have chosen 1Player")
+
+def twoPlayer():
+    print("you have chosen 2Player ")
+
+def Online():
+    print("you have chosen Online")
+
+def Exit():
+    print("you have chosen to exit")
+
+def menu():
+    print("press 1 for 1Player")
+    print("press 2 for 2Player")
+    print("Press 3 for Online")
+    print("Press 4 for Exit")
+    
+    option = int(input("Choose an option for 1, 2 ,3 or 4"))
+    if option == 1:
+        print("1Player has been chosen")
+    elif option == 2:
+        print("2Player has been chosen")
+    elif option == 3:
+        print("Online has been chosen")
+    elif option == 4:
+        print("Exiting...............")
+    
+    
+    
+menu()
+
